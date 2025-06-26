@@ -1,0 +1,7 @@
+sogou wubi ubuntu
+
+https://shurufa.sogou.com/linux/guide
+
+sudo apt remove --purge fcitx5-chinese-addons-data fcitx-data  # 清理冲突的依赖包
+
+sudo apt --fix-broken install  # 自动修复依赖关系

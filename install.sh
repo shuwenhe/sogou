@@ -1,7 +1,9 @@
-sogou wubi ubuntu
-
 https://shurufa.sogou.com/linux/guide
-
+1.install fcitx
+sudo apt-get install fcitx
+sogou wubi ubuntu
+2.install sogou
+sudo dpkg -i sogoupinyin_4.2.1.145_amd64.deb
 1.打开 系统设置——区域和语言——管理已安装的语言——在“语言”tab下——点击“添加或删除语言”
 
 2.sudo apt remove --purge fcitx5-chinese-addons-data fcitx-data  # 清理冲突的依赖包
